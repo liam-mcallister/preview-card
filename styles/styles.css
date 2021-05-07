@@ -1,0 +1,143 @@
+/*----------------------------------------------------
+---------------------------------Table of Contents----
+------------------------------------------------------
+
+1. General
+2. Text
+3. Card
+4. Attribution
+5. Media Queries
+
+*/
+
+/*------------------------------------1. General----*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    background: #090b1a;
+    color: white;
+}
+
+
+/*---------------------------------------2. Text----*/
+h1 {
+    margin-bottom: 1.2rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+h2 {
+    margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+.accent {
+    color: #aa5cdb;
+}
+
+
+/*---------------------------------------3. Card----*/
+.card {
+    max-width: 400px;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    background: #1b1938;
+}
+
+.card__img {
+    width: 100%;
+    height: 250px;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background: #aa5cdb;
+    background: linear-gradient(#51008394, #51008394), url("../images/image-header-mobile.jpg"), center no-repeat;
+    background-size: cover;
+}
+
+.card__text {
+    padding: 2.3rem 1.5rem;
+    text-align: center;
+}
+
+.card__text__info {
+    margin-bottom: 2.5rem;
+    line-height: 1.5rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stat {
+    margin-bottom: 2rem;
+}
+
+.stat:last-child {
+    margin-bottom: 0;
+}
+
+.stat__title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+
+/*--------------------------------4. Attribution----*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: #3e52a3;
+}
+
+
+/*------------------------------5. Media Queries----*/
+@media screen and (min-width: 1050px) {
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 950px;
+    }
+
+    .card__img {
+        height: 100%;
+        border-radius: 0 0.5rem 0.5rem 0;
+        background: linear-gradient(#51008394, #51008394), url("../images/image-header-desktop.jpg"), center no-repeat;
+    }
+
+    .card__text {
+        width: 50%;
+        padding: 4rem;
+        text-align: left;
+    }
+
+    .card__text__info {
+        margin-bottom: 4rem;
+    }
+
+    .card__text__stats {
+        display: flex;
+    }
+
+    .stat {
+        margin-bottom: 0;
+        margin-right: 3rem;
+    }
+
+    .stat:last-child {
+        margin-right: 0;
+    }
+}
