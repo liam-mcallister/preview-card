@@ -86,7 +86,7 @@ h2 {
 }
 
 .stat__title {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     color: hsla(0, 0%, 100%, 0.6);
@@ -106,13 +106,22 @@ h2 {
 
 /*------------------------------5. Media Queries----*/
 @media screen and (min-width: 1050px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
     .card {
         display: flex;
         flex-direction: row-reverse;
-        max-width: 950px;
+        max-width: 1200px;
     }
 
     .card__img {
+        width: 50%;
         height: 100%;
         border-radius: 0 0.5rem 0.5rem 0;
         background: linear-gradient(#51008394, #51008394), url("../images/image-header-desktop.jpg"), center no-repeat;
@@ -120,7 +129,7 @@ h2 {
 
     .card__text {
         width: 50%;
-        padding: 4rem;
+        padding: 5rem 6rem 5rem 4.5rem;
         text-align: left;
     }
 
