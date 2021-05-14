@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/preview-card-anHnftGvA)
-- Live Site URL: [Add live site URL here](https://liam-mcallister.github.io/preview-card/)
+- [Solution URL](https://www.frontendmentor.io/solutions/preview-card-anHnftGvA)
+- [Live Site URL](https://liam-mcallister.github.io/preview-card/)
 
 ## My process
 
@@ -35,5 +35,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://liammcallister.co.uk/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/liam-mcallister)
+- Website - [Liam McAllister](https://liammcallister.co.uk/)
+- Frontend Mentor - [@liam-mcallister](https://www.frontendmentor.io/profile/liam-mcallister)
